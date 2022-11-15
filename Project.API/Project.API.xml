@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Project.API</name>
+    </assembly>
+    <members>
+        <member name="M:Project.API.Controllers.AccountController.AuthAsync(Project.Application.Commands.AccountCommands.SigninUser.SignInUserRequest)">
+             <summary>
+             User Auth
+             </summary>
+             <remarks>
+
+             </remarks>
+             <param name="user"></param>
+             <returns>Logged in user tokens</returns>
+             <response code="201">Returns the Logged in user</response>
+             <response code="400">If the user is null</response>            
+        </member>
+    </members>
+</doc>
